@@ -1,0 +1,122 @@
+{
+  "generated_at": "2026-08-22T15:47:51.486541+00:00",
+  "sources": [
+    {
+      "cadence_minutes": 120,
+      "consecutive_failures": 4,
+      "enabled": true,
+      "id": "anthropic",
+      "last_error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.anthropic.com/news/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+      "last_run_at": null,
+      "plugin": "rss"
+    },
+    {
+      "cadence_minutes": 120,
+      "consecutive_failures": 1,
+      "enabled": true,
+      "id": "anthropic2",
+      "last_error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.anthropic.com/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
+      "last_run_at": null,
+      "plugin": "rss"
+    },
+    {
+      "cadence_minutes": 60,
+      "consecutive_failures": 0,
+      "enabled": true,
+      "id": "arstechnica",
+      "last_error": null,
+      "last_run_at": "2026-08-22T15:27:37.834487+00:00",
+      "plugin": "rss"
+    },
+    {
+      "cadence_minutes": 180,
+      "consecutive_failures": 0,
+      "enabled": true,
+      "id": "arxiv:ai",
+      "last_error": null,
+      "last_run_at": "2026-08-22T14:47:14.284512+00:00",
+      "plugin": "arxiv"
+    },
+    {
+      "cadence_minutes": 360,
+      "consecutive_failures": 0,
+      "enabled": true,
+      "id": "gh:transformers",
+      "last_error": null,
+      "last_run_at": "2026-08-22T14:47:14.284512+00:00",
+      "plugin": "github_releases"
+    },
+    {
+      "cadence_minutes": 360,
+      "consecutive_failures": 0,
+      "enabled": true,
+      "id": "gh:vllm",
+      "last_error": null,
+      "last_run_at": "2026-08-22T14:47:14.284512+00:00",
+      "plugin": "github_releases"
+    },
+    {
+      "cadence_minutes": 120,
+      "consecutive_failures": 0,
+      "enabled": true,
+      "id": "hf:blog",
+      "last_error": null,
+      "last_run_at": "2026-08-22T14:47:14.284512+00:00",
+      "plugin": "rss"
+    },
+    {
+      "cadence_minutes": 30,
+      "consecutive_failures": 0,
+      "enabled": true,
+      "id": "hn",
+      "last_error": null,
+      "last_run_at": "2026-08-22T15:25:15.451949+00:00",
+      "plugin": "hackernews"
+    },
+    {
+      "cadence_minutes": 60,
+      "consecutive_failures": 0,
+      "enabled": true,
+      "id": "marktechpost",
+      "last_error": null,
+      "last_run_at": "2026-08-22T15:27:37.834487+00:00",
+      "plugin": "rss"
+    },
+    {
+      "cadence_minutes": 120,
+      "consecutive_failures": 0,
+      "enabled": true,
+      "id": "openai",
+      "last_error": null,
+      "last_run_at": "2026-08-22T14:47:14.284512+00:00",
+      "plugin": "rss"
+    },
+    {
+      "cadence_minutes": 60,
+      "consecutive_failures": 0,
+      "enabled": true,
+      "id": "techcrunch",
+      "last_error": null,
+      "last_run_at": "2026-08-22T15:27:37.834487+00:00",
+      "plugin": "rss"
+    },
+    {
+      "cadence_minutes": 60,
+      "consecutive_failures": 0,
+      "enabled": true,
+      "id": "theverge",
+      "last_error": null,
+      "last_run_at": "2026-08-22T15:27:37.834487+00:00",
+      "plugin": "rss"
+    },
+    {
+      "cadence_minutes": 60,
+      "consecutive_failures": 0,
+      "enabled": true,
+      "id": "venturebeat",
+      "last_error": null,
+      "last_run_at": "2026-08-22T15:27:37.834487+00:00",
+      "plugin": "rss"
+    }
+  ]
+}
