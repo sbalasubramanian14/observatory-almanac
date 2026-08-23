@@ -1,122 +1,346 @@
 {
-  "generated_at": "2026-08-22T19:59:34.632471+00:00",
+  "generated_at": "2026-08-23T01:40:24.894313+00:00",
   "sources": [
     {
-      "cadence_minutes": 120,
-      "consecutive_failures": 4,
-      "enabled": true,
-      "id": "anthropic",
-      "last_error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.anthropic.com/news/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-      "last_run_at": null,
-      "plugin": "rss"
-    },
-    {
-      "cadence_minutes": 120,
-      "consecutive_failures": 1,
-      "enabled": true,
-      "id": "anthropic2",
-      "last_error": "HTTPStatusError: Client error '404 Not Found' for url 'https://www.anthropic.com/rss.xml'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404",
-      "last_run_at": null,
-      "plugin": "rss"
-    },
-    {
-      "cadence_minutes": 60,
+      "cadence_minutes": 360,
       "consecutive_failures": 0,
+      "coverage_warning": "source=01ai: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
       "enabled": true,
-      "id": "arstechnica",
+      "id": "01ai",
       "last_error": null,
-      "last_run_at": "2026-08-22T15:27:37.834487+00:00",
-      "plugin": "rss"
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "github_releases",
+      "territory": "research"
     },
     {
       "cadence_minutes": 180,
       "consecutive_failures": 0,
+      "coverage_warning": "source=ai2: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "ai2",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "research"
+    },
+    {
+      "cadence_minutes": 240,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=amd: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "amd",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "infrastructure"
+    },
+    {
+      "cadence_minutes": 180,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=anthropic: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "anthropic",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "scraper",
+      "territory": "industry"
+    },
+    {
+      "cadence_minutes": 60,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=arstechnica: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "arstechnica",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "industry"
+    },
+    {
+      "cadence_minutes": 180,
+      "consecutive_failures": 1,
+      "coverage_warning": null,
       "enabled": true,
       "id": "arxiv:ai",
-      "last_error": null,
-      "last_run_at": "2026-08-22T14:47:14.284512+00:00",
-      "plugin": "arxiv"
-    },
-    {
-      "cadence_minutes": 360,
-      "consecutive_failures": 0,
-      "enabled": true,
-      "id": "gh:transformers",
-      "last_error": null,
-      "last_run_at": "2026-08-22T14:47:14.284512+00:00",
-      "plugin": "github_releases"
-    },
-    {
-      "cadence_minutes": 360,
-      "consecutive_failures": 0,
-      "enabled": true,
-      "id": "gh:vllm",
-      "last_error": null,
-      "last_run_at": "2026-08-22T14:47:14.284512+00:00",
-      "plugin": "github_releases"
+      "last_error": "HTTPStatusError: Client error '429 Unknown Error' for url 'https://export.arxiv.org/api/query?search_query=cat:cs.AI+OR+cat:cs.CL+OR+cat:cs.LG&start=0&max_results=60&sortBy=submittedDate&sortOrder=descending'\nFor more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429",
+      "last_run_at": null,
+      "plugin": "arxiv",
+      "territory": "research"
     },
     {
       "cadence_minutes": 120,
       "consecutive_failures": 0,
+      "coverage_warning": "source=datacenterdynamics: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched; rss source='datacenterdynamics': all 20 dated entries in this fetch postdate since=2026-08-21T01:33:51.952754+00:00 -- the feed's window may have rolled past older items between runs; coverage may be incomplete",
+      "enabled": true,
+      "id": "datacenterdynamics",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "infrastructure"
+    },
+    {
+      "cadence_minutes": 180,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=deepmind: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "deepmind",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "research"
+    },
+    {
+      "cadence_minutes": 360,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=deepseek: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "deepseek",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "github_releases",
+      "territory": "research"
+    },
+    {
+      "cadence_minutes": 240,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=eu_digital_strategy: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "eu_digital_strategy",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "policy"
+    },
+    {
+      "cadence_minutes": 360,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=gh:transformers: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "gh:transformers",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "github_releases",
+      "territory": "research"
+    },
+    {
+      "cadence_minutes": 360,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=gh:vllm: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "gh:vllm",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "github_releases",
+      "territory": "research"
+    },
+    {
+      "cadence_minutes": 120,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=google_ai: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "google_ai",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "industry"
+    },
+    {
+      "cadence_minutes": 180,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=google_research: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "google_research",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "research"
+    },
+    {
+      "cadence_minutes": 120,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=hf:blog: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
       "enabled": true,
       "id": "hf:blog",
       "last_error": null,
-      "last_run_at": "2026-08-22T14:47:14.284512+00:00",
-      "plugin": "rss"
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "research"
     },
     {
       "cadence_minutes": 30,
       "consecutive_failures": 0,
+      "coverage_warning": "source=hn: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
       "enabled": true,
       "id": "hn",
       "last_error": null,
-      "last_run_at": "2026-08-22T15:25:15.451949+00:00",
-      "plugin": "hackernews"
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "hackernews",
+      "territory": "industry"
     },
     {
       "cadence_minutes": 60,
       "consecutive_failures": 0,
+      "coverage_warning": "source=marktechpost: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
       "enabled": true,
       "id": "marktechpost",
       "last_error": null,
-      "last_run_at": "2026-08-22T15:27:37.834487+00:00",
-      "plugin": "rss"
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "industry"
+    },
+    {
+      "cadence_minutes": 180,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=meta_research: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "meta_research",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "research"
     },
     {
       "cadence_minutes": 120,
       "consecutive_failures": 0,
+      "coverage_warning": "source=mistral: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "mistral",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "industry"
+    },
+    {
+      "cadence_minutes": 180,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=msr: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "msr",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "research"
+    },
+    {
+      "cadence_minutes": 240,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=nist: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "nist",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "policy"
+    },
+    {
+      "cadence_minutes": 180,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=nvidia_devblog: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "nvidia_devblog",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "infrastructure"
+    },
+    {
+      "cadence_minutes": 180,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=nvidia_newsroom: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "nvidia_newsroom",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "infrastructure"
+    },
+    {
+      "cadence_minutes": 180,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=nvidia_research: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "nvidia_research",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "research"
+    },
+    {
+      "cadence_minutes": 120,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=openai: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
       "enabled": true,
       "id": "openai",
       "last_error": null,
-      "last_run_at": "2026-08-22T14:47:14.284512+00:00",
-      "plugin": "rss"
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "industry"
+    },
+    {
+      "cadence_minutes": 360,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=qwen: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "qwen",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "github_releases",
+      "territory": "research"
     },
     {
       "cadence_minutes": 60,
       "consecutive_failures": 0,
+      "coverage_warning": "source=techcrunch: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
       "enabled": true,
       "id": "techcrunch",
       "last_error": null,
-      "last_run_at": "2026-08-22T15:27:37.834487+00:00",
-      "plugin": "rss"
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "industry"
     },
     {
       "cadence_minutes": 60,
       "consecutive_failures": 0,
+      "coverage_warning": "source=theverge: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched; rss source='theverge': all 10 dated entries in this fetch postdate since=2026-08-21T01:33:51.952754+00:00 -- the feed's window may have rolled past older items between runs; coverage may be incomplete",
       "enabled": true,
       "id": "theverge",
       "last_error": null,
-      "last_run_at": "2026-08-22T15:27:37.834487+00:00",
-      "plugin": "rss"
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "industry"
+    },
+    {
+      "cadence_minutes": 180,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=trendforce: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "trendforce",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "infrastructure"
+    },
+    {
+      "cadence_minutes": 240,
+      "consecutive_failures": 0,
+      "coverage_warning": "source=uk_aisi: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "enabled": true,
+      "id": "uk_aisi",
+      "last_error": null,
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "policy"
     },
     {
       "cadence_minutes": 60,
       "consecutive_failures": 0,
+      "coverage_warning": "source=venturebeat: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
       "enabled": true,
       "id": "venturebeat",
       "last_error": null,
-      "last_run_at": "2026-08-22T15:27:37.834487+00:00",
-      "plugin": "rss"
+      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "plugin": "rss",
+      "territory": "industry"
     }
   ]
 }
