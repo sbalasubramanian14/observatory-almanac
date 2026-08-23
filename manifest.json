@@ -1,7 +1,7 @@
 {
   "embedding_dimensions": 384,
   "embedding_model_id": "sentence-transformers/all-MiniLM-L6-v2",
-  "embeddings_hash": "3971f04eb14841f1",
+  "embeddings_hash": "5494066073ffc5a6",
   "embeddings_index": [
     280,
     309,
@@ -72,18 +72,15 @@
     28,
     388,
     298,
-    348,
     290,
     390,
     219,
     143,
     149,
     53,
-    343,
     56,
     34,
     233,
-    357,
     212,
     257,
     13,
@@ -137,10 +134,8 @@
     187,
     186,
     27,
-    366,
     279,
     167,
-    347,
     216,
     84,
     166,
@@ -171,9 +166,7 @@
     293,
     230,
     338,
-    358,
     244,
-    352,
     31,
     156,
     146,
@@ -182,7 +175,6 @@
     7,
     120,
     128,
-    349,
     399,
     152,
     9,
@@ -192,8 +184,6 @@
     278,
     96,
     29,
-    431,
-    367,
     321,
     182,
     3,
@@ -231,7 +221,6 @@
     136,
     142,
     282,
-    386,
     169,
     251,
     249,
@@ -244,20 +233,17 @@
     86,
     103,
     223,
-    342,
     75,
     218,
     141,
     43,
     408,
     319,
-    360,
     312,
     112,
     416,
     11,
     116,
-    359,
     322,
     417,
     127,
@@ -266,7 +252,6 @@
     274,
     225,
     363,
-    361,
     418,
     380,
     158,
@@ -433,8 +418,8 @@
     92,
     374
   ],
-  "embeddings_path": "embeddings/20260823-3971f04eb14841f1.bin",
-  "generated_at": "2026-08-23T17:37:59.411257+00:00",
+  "embeddings_path": "embeddings/20260823-5494066073ffc5a6.bin",
+  "generated_at": "2026-08-23T18:21:57.104787+00:00",
   "pages": [
     {
       "count": 50,
@@ -444,55 +429,55 @@
     },
     {
       "count": 50,
-      "hash": "73092715961c4d34",
+      "hash": "33bf1ad329566ff2",
       "page": 1,
-      "path": "feed/page-1-73092715961c4d34.json"
+      "path": "feed/page-1-33bf1ad329566ff2.json"
     },
     {
       "count": 50,
-      "hash": "4f5ff8b700259ac8",
+      "hash": "73454e11323fce69",
       "page": 2,
-      "path": "feed/page-2-4f5ff8b700259ac8.json"
+      "path": "feed/page-2-73454e11323fce69.json"
     },
     {
       "count": 50,
-      "hash": "d6c8f64fa2758a2c",
+      "hash": "bc913e65ff3540d3",
       "page": 3,
-      "path": "feed/page-3-d6c8f64fa2758a2c.json"
+      "path": "feed/page-3-bc913e65ff3540d3.json"
     },
     {
       "count": 50,
-      "hash": "0a75cace1b9c8217",
+      "hash": "fc4115549ebf60b0",
       "page": 4,
-      "path": "feed/page-4-0a75cace1b9c8217.json"
+      "path": "feed/page-4-fc4115549ebf60b0.json"
     },
     {
       "count": 50,
-      "hash": "ad031b46d769af11",
+      "hash": "597baa85e7c67e74",
       "page": 5,
-      "path": "feed/page-5-ad031b46d769af11.json"
+      "path": "feed/page-5-597baa85e7c67e74.json"
     },
     {
       "count": 50,
-      "hash": "773a0bbddc57cb6d",
+      "hash": "5e4e832e69e6a9c3",
       "page": 6,
-      "path": "feed/page-6-773a0bbddc57cb6d.json"
+      "path": "feed/page-6-5e4e832e69e6a9c3.json"
     },
     {
       "count": 50,
-      "hash": "d5b7c6f5343d2b3d",
+      "hash": "a829b6eb416b165a",
       "page": 7,
-      "path": "feed/page-7-d5b7c6f5343d2b3d.json"
+      "path": "feed/page-7-a829b6eb416b165a.json"
     },
     {
-      "count": 29,
-      "hash": "aa9a35d6242d8d7c",
+      "count": 14,
+      "hash": "a341005f46757aa7",
       "page": 8,
-      "path": "feed/page-8-aa9a35d6242d8d7c.json"
+      "path": "feed/page-8-a341005f46757aa7.json"
     }
   ],
   "retention_days": 90,
   "sources_path": "sources.json",
-  "story_count": 429,
+  "story_count": 414,
   "version": 1
 }
