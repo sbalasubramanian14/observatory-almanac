@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T16:25:24.485678+00:00",
+  "generated_at": "2026-08-23T17:37:59.411257+00:00",
   "sources": [
     {
       "cadence_minutes": 360,
@@ -52,7 +52,7 @@
       "enabled": true,
       "id": "arstechnica",
       "last_error": null,
-      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
+      "last_run_at": "2026-08-23T17:37:50.174167+00:00",
       "plugin": "rss",
       "territory": "industry"
     },
@@ -173,7 +173,7 @@
       "enabled": true,
       "id": "hn",
       "last_error": null,
-      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
+      "last_run_at": "2026-08-23T17:37:50.174167+00:00",
       "plugin": "hackernews",
       "territory": "industry"
     },
@@ -184,7 +184,7 @@
       "enabled": true,
       "id": "marktechpost",
       "last_error": null,
-      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
+      "last_run_at": "2026-08-23T17:37:50.174167+00:00",
       "plugin": "rss",
       "territory": "industry"
     },
@@ -294,7 +294,7 @@
       "enabled": true,
       "id": "techcrunch",
       "last_error": null,
-      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
+      "last_run_at": "2026-08-23T17:37:50.174167+00:00",
       "plugin": "rss",
       "territory": "industry"
     },
@@ -305,7 +305,7 @@
       "enabled": true,
       "id": "theverge",
       "last_error": null,
-      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
+      "last_run_at": "2026-08-23T17:37:50.174167+00:00",
       "plugin": "rss",
       "territory": "industry"
     },
@@ -338,7 +338,7 @@
       "enabled": true,
       "id": "venturebeat",
       "last_error": null,
-      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
+      "last_run_at": "2026-08-23T17:37:50.174167+00:00",
       "plugin": "rss",
       "territory": "industry"
     }
