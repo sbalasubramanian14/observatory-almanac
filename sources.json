@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-08-23T06:50:50.897225+00:00",
+  "generated_at": "2026-08-23T16:25:24.485678+00:00",
   "sources": [
     {
       "cadence_minutes": 360,
       "consecutive_failures": 0,
-      "coverage_warning": "source=01ai: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "coverage_warning": null,
       "enabled": true,
       "id": "01ai",
       "last_error": null,
-      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "github_releases",
       "territory": "research"
     },
@@ -19,7 +19,7 @@
       "enabled": true,
       "id": "ai2",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "research"
     },
@@ -30,7 +30,7 @@
       "enabled": true,
       "id": "amd",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "infrastructure"
     },
@@ -41,7 +41,7 @@
       "enabled": true,
       "id": "anthropic",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "scraper",
       "territory": "industry"
     },
@@ -52,18 +52,18 @@
       "enabled": true,
       "id": "arstechnica",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "industry"
     },
     {
       "cadence_minutes": 180,
       "consecutive_failures": 0,
-      "coverage_warning": "source=arxiv:ai: first run, backfill bounded to 2d (since=2026-08-21T06:50:04.710677+00:00); older history, if any, was not fetched",
+      "coverage_warning": null,
       "enabled": true,
       "id": "arxiv:ai",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "arxiv",
       "territory": "research"
     },
@@ -74,7 +74,7 @@
       "enabled": true,
       "id": "datacenterdynamics",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "infrastructure"
     },
@@ -85,18 +85,18 @@
       "enabled": true,
       "id": "deepmind",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "research"
     },
     {
       "cadence_minutes": 360,
       "consecutive_failures": 0,
-      "coverage_warning": "source=deepseek: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "coverage_warning": null,
       "enabled": true,
       "id": "deepseek",
       "last_error": null,
-      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "github_releases",
       "territory": "research"
     },
@@ -107,29 +107,29 @@
       "enabled": true,
       "id": "eu_digital_strategy",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "policy"
     },
     {
       "cadence_minutes": 360,
       "consecutive_failures": 0,
-      "coverage_warning": "source=gh:transformers: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "coverage_warning": null,
       "enabled": true,
       "id": "gh:transformers",
       "last_error": null,
-      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "github_releases",
       "territory": "research"
     },
     {
       "cadence_minutes": 360,
       "consecutive_failures": 0,
-      "coverage_warning": "source=gh:vllm: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "coverage_warning": null,
       "enabled": true,
       "id": "gh:vllm",
       "last_error": null,
-      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "github_releases",
       "territory": "research"
     },
@@ -140,7 +140,7 @@
       "enabled": true,
       "id": "google_ai",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "industry"
     },
@@ -151,7 +151,7 @@
       "enabled": true,
       "id": "google_research",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "research"
     },
@@ -162,7 +162,7 @@
       "enabled": true,
       "id": "hf:blog",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "research"
     },
@@ -173,7 +173,7 @@
       "enabled": true,
       "id": "hn",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "hackernews",
       "territory": "industry"
     },
@@ -184,7 +184,7 @@
       "enabled": true,
       "id": "marktechpost",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "industry"
     },
@@ -195,7 +195,7 @@
       "enabled": true,
       "id": "meta_research",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "research"
     },
@@ -206,7 +206,7 @@
       "enabled": true,
       "id": "mistral",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "industry"
     },
@@ -217,7 +217,7 @@
       "enabled": true,
       "id": "msr",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "research"
     },
@@ -228,7 +228,7 @@
       "enabled": true,
       "id": "nist",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "policy"
     },
@@ -239,7 +239,7 @@
       "enabled": true,
       "id": "nvidia_devblog",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "infrastructure"
     },
@@ -250,7 +250,7 @@
       "enabled": true,
       "id": "nvidia_newsroom",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "infrastructure"
     },
@@ -261,7 +261,7 @@
       "enabled": true,
       "id": "nvidia_research",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "research"
     },
@@ -272,18 +272,18 @@
       "enabled": true,
       "id": "openai",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "industry"
     },
     {
       "cadence_minutes": 360,
       "consecutive_failures": 0,
-      "coverage_warning": "source=qwen: first run, backfill bounded to 2d (since=2026-08-21T01:33:51.952754+00:00); older history, if any, was not fetched",
+      "coverage_warning": null,
       "enabled": true,
       "id": "qwen",
       "last_error": null,
-      "last_run_at": "2026-08-23T01:33:51.952754+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "github_releases",
       "territory": "research"
     },
@@ -294,7 +294,7 @@
       "enabled": true,
       "id": "techcrunch",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "industry"
     },
@@ -305,7 +305,7 @@
       "enabled": true,
       "id": "theverge",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "industry"
     },
@@ -316,7 +316,7 @@
       "enabled": true,
       "id": "trendforce",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "infrastructure"
     },
@@ -327,7 +327,7 @@
       "enabled": true,
       "id": "uk_aisi",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "policy"
     },
@@ -338,7 +338,7 @@
       "enabled": true,
       "id": "venturebeat",
       "last_error": null,
-      "last_run_at": "2026-08-23T06:50:04.710677+00:00",
+      "last_run_at": "2026-08-23T16:23:48.405327+00:00",
       "plugin": "rss",
       "territory": "industry"
     }

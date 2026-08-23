@@ -1,7 +1,7 @@
 {
   "embedding_dimensions": 384,
   "embedding_model_id": "sentence-transformers/all-MiniLM-L6-v2",
-  "embeddings_hash": "82bc86419fbc2201",
+  "embeddings_hash": "3971f04eb14841f1",
   "embeddings_index": [
     280,
     309,
@@ -192,6 +192,7 @@
     278,
     96,
     29,
+    431,
     367,
     321,
     182,
@@ -279,6 +280,7 @@
     107,
     97,
     195,
+    432,
     275,
     220,
     180,
@@ -313,6 +315,7 @@
     171,
     292,
     254,
+    429,
     71,
     328,
     168,
@@ -343,6 +346,7 @@
     155,
     69,
     138,
+    437,
     125,
     64,
     108,
@@ -367,6 +371,7 @@
     344,
     80,
     381,
+    436,
     90,
     401,
     65,
@@ -382,9 +387,11 @@
     82,
     316,
     405,
+    428,
     117,
     320,
     196,
+    430,
     60,
     385,
     383,
@@ -398,6 +405,7 @@
     425,
     79,
     74,
+    438,
     76,
     424,
     122,
@@ -415,15 +423,18 @@
     73,
     370,
     373,
+    433,
     375,
     387,
+    435,
+    434,
     368,
     93,
     92,
     374
   ],
-  "embeddings_path": "embeddings/20260823-82bc86419fbc2201.bin",
-  "generated_at": "2026-08-23T06:50:50.897225+00:00",
+  "embeddings_path": "embeddings/20260823-3971f04eb14841f1.bin",
+  "generated_at": "2026-08-23T16:25:24.485678+00:00",
   "pages": [
     {
       "count": 50,
@@ -445,43 +456,43 @@
     },
     {
       "count": 50,
-      "hash": "d514f71175fb5686",
+      "hash": "d6c8f64fa2758a2c",
       "page": 3,
-      "path": "feed/page-3-d514f71175fb5686.json"
+      "path": "feed/page-3-d6c8f64fa2758a2c.json"
     },
     {
       "count": 50,
-      "hash": "2fbd7eb959c3e084",
+      "hash": "0a75cace1b9c8217",
       "page": 4,
-      "path": "feed/page-4-2fbd7eb959c3e084.json"
+      "path": "feed/page-4-0a75cace1b9c8217.json"
     },
     {
       "count": 50,
-      "hash": "305da0819df098cc",
+      "hash": "ad031b46d769af11",
       "page": 5,
-      "path": "feed/page-5-305da0819df098cc.json"
+      "path": "feed/page-5-ad031b46d769af11.json"
     },
     {
       "count": 50,
-      "hash": "12f55c0dcf444573",
+      "hash": "773a0bbddc57cb6d",
       "page": 6,
-      "path": "feed/page-6-12f55c0dcf444573.json"
+      "path": "feed/page-6-773a0bbddc57cb6d.json"
     },
     {
       "count": 50,
-      "hash": "0f8f2dcf6bddbd42",
+      "hash": "d5b7c6f5343d2b3d",
       "page": 7,
-      "path": "feed/page-7-0f8f2dcf6bddbd42.json"
+      "path": "feed/page-7-d5b7c6f5343d2b3d.json"
     },
     {
-      "count": 18,
-      "hash": "d6b3489e52b8e0a6",
+      "count": 29,
+      "hash": "aa9a35d6242d8d7c",
       "page": 8,
-      "path": "feed/page-8-d6b3489e52b8e0a6.json"
+      "path": "feed/page-8-aa9a35d6242d8d7c.json"
     }
   ],
   "retention_days": 90,
   "sources_path": "sources.json",
-  "story_count": 418,
+  "story_count": 429,
   "version": 1
 }
